@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 100
+  controlID: 90
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -502,7 +502,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/TerrainSampleAssets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -510,16 +510,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/TerrainSampleAssets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Rhayssa\2404B\2404B3Di
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a8590000
-    m_LastClickedID: 22952
-    m_ExpandedIDs: 00000000205a0000
+    m_SelectedIDs: 565b0000
+    m_LastClickedID: 23382
+    m_ExpandedIDs: 00000000485b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -547,7 +547,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000485b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1149,9 +1149,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 461.53076, y: 113.35736, z: 605.33044}
+    m_Target: {x: 736.9676, y: 8.121647, z: 513.3297}
     speed: 2
-    m_Value: {x: 461.53076, y: 113.35736, z: 605.33044}
+    m_Value: {x: 736.9676, y: 8.121647, z: 513.3297}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1197,13 +1197,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.30424336, y: -0.60176605, z: 0.26571167, w: -0.68901825}
+    m_Target: {x: 0.10923078, y: 0.35712308, z: -0.042055205, w: 0.9267409}
     speed: 2
-    m_Value: {x: -0.30383912, y: -0.6027883, z: 0.26616305, w: -0.6881028}
+    m_Value: {x: 0.10668954, y: 0.35166383, z: -0.040342327, w: 0.9291514}
   m_Size:
-    m_Target: 244.33296
+    m_Target: 0.107850865
     speed: 2
-    m_Value: 255.84604
+    m_Value: 0.11293284
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1267,21 +1267,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 14fbffff
+      m_ExpandedIDs: 9cf4ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Terrain
+        m_OriginalName: Terrain
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 23312
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 12}
       m_SearchString: 

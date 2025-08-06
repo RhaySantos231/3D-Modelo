@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638899247695550675
-    m_Hash: 2922184236
+      ticks: 638899286118395888
+    m_Hash: 4141410002
   m_LockFileStatus:
     m_FilePath: D:/Rhayssa/2404B/2404B3Di/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638899247696753134
-    m_Hash: 1806656251
+      ticks: 638899286118395888
+    m_Hash: 1676798724
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
