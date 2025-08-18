@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 15cdbe39f7f192a469f69b136b15a719, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fe4e130f9947345a2b213cb5038851a2, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2053,6 +2053,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 416096, guid: 2394d7d557201f048b00c84246231eb0, type: 3}
   m_PrefabInstance: {fileID: 250854174}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &271474506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 331.9698
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0000019073486
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 157.79079
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_Name
+      value: Kachujin G Rosales
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
 --- !u!1001 &274149863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12418,3 +12475,4 @@ SceneRoots:
   - {fileID: 278791109}
   - {fileID: 718160902}
   - {fileID: 440083056}
+  - {fileID: 271474506}
