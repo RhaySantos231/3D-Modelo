@@ -15,7 +15,7 @@ D:/Rhayssa/2404B/2404B3Di
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60497
+49994
 Successfully changed project path to: D:/Rhayssa/2404B/2404B3Di
 D:/Rhayssa/2404B/2404B3Di
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ D:/Rhayssa/2404B/2404B3Di
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18900]  Target information:
+Player connection [12484]  Target information:
 
-Player connection [18900]  * "[IP] 192.168.15.81 [Port] 0 [Flags] 2 [Guid] 3279265035 [EditorId] 3279265035 [Version] 1048832 [Id] WindowsEditor(7,LAB-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12484]  * "[IP] 192.168.15.81 [Port] 0 [Flags] 2 [Guid] 3814084491 [EditorId] 3814084491 [Version] 1048832 [Id] WindowsEditor(7,LAB-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18900] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18900] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12484] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12484] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 7.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.61f1 (6c53ebaf375d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Resources/UnitySubsystems
@@ -73,51 +73,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.014623 seconds.
-- Loaded All Assemblies, in  0.436 seconds
+Registered in 0.017770 seconds.
+- Loaded All Assemblies, in  0.410 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 247 ms
+Android Extension - Scanning For ADB Devices 233 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.596 seconds
-Domain Reload Profiling: 1030ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  0.556 seconds
+Domain Reload Profiling: 963ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (175ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (156ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (153ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (597ms)
+	FinalizeReload (556ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (544ms)
+		SetupLoadedEditorAssemblies (507ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (343ms)
+			InitializePlatformSupportModulesInManaged (326ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (144ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,53 +126,53 @@ Domain Reload Profiling: 1030ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.671 seconds
+- Loaded All Assemblies, in  0.651 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.613 seconds
-Domain Reload Profiling: 1283ms
-	BeginReloadAssembly (155ms)
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 1274ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (407ms)
-		LoadAssemblies (291ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (283ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (159ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (614ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (626ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (462ms)
+		SetupLoadedEditorAssemblies (460ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (334ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3152 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (55.2 KB). Loaded Objects now: 3645.
-Memory consumption went from 157.5 MB to 157.4 MB.
-Total: 3.021000 ms (FindLiveObjects: 0.300500 ms CreateObjectMapping: 0.244900 ms MarkObjects: 2.368200 ms  DeleteObjects: 0.106400 ms)
+Unloading 19 unused Assets / (54.8 KB). Loaded Objects now: 3645.
+Memory consumption went from 157.6 MB to 157.5 MB.
+Total: 2.624200 ms (FindLiveObjects: 0.249600 ms CreateObjectMapping: 0.188700 ms MarkObjects: 2.094200 ms  DeleteObjects: 0.090700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -189,241 +189,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 367076.286154 seconds.
-  path: Assets/ithappy/Animals_FREE/Meshes/Horse_001.fbx
-  artifactKey: Guid(33246b64c1371e444b73335f655fc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ithappy/Animals_FREE/Meshes/Horse_001.fbx using Guid(33246b64c1371e444b73335f655fc158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8be0cc40ee7b10175f89f0756fb2d57c') in 0.189775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 106
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ithappy/Animals_FREE/Skyboxes/Skybox_5.mat
-  artifactKey: Guid(6a9a29d807a43624b8d8758de7c530d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ithappy/Animals_FREE/Skyboxes/Skybox_5.mat using Guid(6a9a29d807a43624b8d8758de7c530d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '49801783273fe86c30fc0ab03bdcaec4') in 0.509014 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/ithappy/Animals_FREE/Meshes/Kitty_001.fbx
-  artifactKey: Guid(31d2c91682ac6f045b4b75ebf27e5d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ithappy/Animals_FREE/Meshes/Kitty_001.fbx using Guid(31d2c91682ac6f045b4b75ebf27e5d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a66cbd1d7b36996c76a30062af25b579') in 0.030717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 95
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ithappy/Animals_FREE/Meshes/Dog_001.fbx
-  artifactKey: Guid(0c0f883d7bc25dd4d84c3c7795a4a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ithappy/Animals_FREE/Meshes/Dog_001.fbx using Guid(0c0f883d7bc25dd4d84c3c7795a4a332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f7e8f013a0b6b52af9f91f8166902202') in 0.035340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 3.050039 seconds.
-  path: Assets/VillagePack/Well/Well.fbx
-  artifactKey: Guid(21cf86b1834db25468c609ce2465187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VillagePack/Well/Well.fbx using Guid(21cf86b1834db25468c609ce2465187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'feb6ec225e0f0fd7c20a5608110c53c8') in 2.391658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 433
-========================================================================
-Received Import Request.
-  Time since last request: 266.237009 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.000711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.565758 seconds.
-  path: Assets/Player
-  artifactKey: Guid(5c2377342b02f3443af23e6f73e1a69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player using Guid(5c2377342b02f3443af23e6f73e1a69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'dfb8cda7d9511b8e82789c83a37310ee') in 0.000484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.880012 seconds.
-  path: Assets/Inimigo
-  artifactKey: Guid(9e2bb8e909862914cbea62667cba0f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Inimigo using Guid(9e2bb8e909862914cbea62667cba0f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c131973f1645bd6ce41e9978e5e37497') in 0.000473 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.146796 seconds.
-  path: Assets/Script
-  artifactKey: Guid(a05a7aed2dfa5a84295df55de194dca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(a05a7aed2dfa5a84295df55de194dca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '282b225f7aaa64c6cbebec6548237c4f') in 0.000398 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1386.834754 seconds.
+  Time since last request: 1045.184271 seconds.
   path: Assets/Player/Jumping Down.fbx
   artifactKey: Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Player/Jumping Down.fbx using Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
@@ -432,644 +198,69 @@ Start importing Assets/Player/Jumping Down.fbx using Guid(fa579443b6830904f92e96
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cb13f3e8cd1ca5bcb01f917c59421b86') in 0.309667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Player/Kachujin G Rosales@Jumping Up.fbx
-  artifactKey: Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Jumping Up.fbx using Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '775556669dce501962db51b474370fe2') in 0.045093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Player/Kachujin G Rosales@Fast Run.fbx
-  artifactKey: Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Fast Run.fbx using Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ab80e9d7eb7009194b987604b38787a4') in 0.038752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Player/Kachujin G Rosales@Standing Idle.fbx
-  artifactKey: Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Standing Idle.fbx using Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '22d24aae6d494cb3537f38f80ee300c3') in 0.035848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 639.266912 seconds.
-  path: Assets/Player/Kachujin G Rosales.fbx
-  artifactKey: Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales.fbx using Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd8fac8e78cccc299e4934a5af3cbd87a') in 0.064924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 146.351143 seconds.
-  path: Assets/Player/Kachujin G Rosales.fbx
-  artifactKey: Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales.fbx using Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bbfbad5683638149e9a3197592482a45') in 0.041140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 68.775633 seconds.
-  path: Assets/Player/Kachujin G Rosales.fbx
-  artifactKey: Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales.fbx using Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1dc9dac363b13fe7e088d6a01119ca3c') in 0.039909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 103.500883 seconds.
-  path: Assets/Player/Kachujin G Rosales.fbx
-  artifactKey: Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales.fbx using Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '19fa2732f2e01834fe558613f697d160') in 0.404126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 166
-========================================================================
-Received Import Request.
-  Time since last request: 11.386642 seconds.
-  path: Assets/Player/Kachujin G Rosales.fbx
-  artifactKey: Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales.fbx using Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4c4e6aaeb9d0c80125745cce4867da7c') in 0.038233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 166
-========================================================================
-Received Import Request.
-  Time since last request: 32.882027 seconds.
-  path: Assets/Player/Kachujin G Rosales.fbx
-  artifactKey: Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales.fbx using Guid(e869edda986bb9d4d99ace13aee4eb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8e5ab1477259a96032f07d8e882f58a0') in 0.042171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 166
-========================================================================
-Received Import Request.
-  Time since last request: 106.236904 seconds.
-  path: Assets/Player/Kachujin G Rosales@Fast Run.fbx
-  artifactKey: Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Fast Run.fbx using Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6a4103908bfbffa7c6a3ebac3b466534') in 0.057109 seconds
+ -> (artifact id: '6a5d9cf1593896bde609469909239d76') in 0.167472 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 164
 ========================================================================
 Received Import Request.
-  Time since last request: 53.137906 seconds.
-  path: Assets/Player/Kachujin G Rosales@Fast Run.fbx
-  artifactKey: Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Fast Run.fbx using Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 22.286402 seconds.
+  path: Assets/Player/Jumping Down.fbx
+  artifactKey: Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Jumping Down.fbx using Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '82d3fd722316336ad46b85f2c9b15746') in 0.065804 seconds
+ -> (artifact id: '65aef64ed53aa74f774994ffb756dbfb') in 0.047169 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 164
 ========================================================================
 Received Import Request.
-  Time since last request: 18.603395 seconds.
-  path: Assets/Player/Kachujin G Rosales@Fast Run.fbx
-  artifactKey: Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Fast Run.fbx using Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 7.653424 seconds.
+  path: Assets/Player/Jumping Down.fbx
+  artifactKey: Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Jumping Down.fbx using Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ddfeaced11889dc7b976a4c97308e238') in 0.052434 seconds
+ -> (artifact id: 'f962eba2d0b62585cbb9fe0961b7a1f9') in 0.046542 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 164
 ========================================================================
 Received Import Request.
-  Time since last request: 14.936338 seconds.
-  path: Assets/Player/Kachujin G Rosales@Fast Run.fbx
-  artifactKey: Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Fast Run.fbx using Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 1.977422 seconds.
+  path: Assets/Player/Jumping Down.fbx
+  artifactKey: Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Jumping Down.fbx using Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4f6a8f3ada855a3a920cfe23a930da64') in 0.042470 seconds
+ -> (artifact id: '92a387c736b495d1e30d146ccf92d2fc') in 0.044343 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 164
 ========================================================================
 Received Import Request.
-  Time since last request: 3.175641 seconds.
-  path: Assets/Player/Kachujin G Rosales@Fast Run.fbx
-  artifactKey: Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Fast Run.fbx using Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 3.632579 seconds.
+  path: Assets/Player/Jumping Down.fbx
+  artifactKey: Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Jumping Down.fbx using Guid(fa579443b6830904f92e96906c55ece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5b503321fddc1764cf3127a39d7573be') in 0.037887 seconds
+ -> (artifact id: 'ac9ebab87fa04399b53985992520bcc0') in 0.041328 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 164
 ========================================================================
 Received Import Request.
-  Time since last request: 7.619509 seconds.
-  path: Assets/Player/Kachujin G Rosales@Fast Run.fbx
-  artifactKey: Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Fast Run.fbx using Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '907d31ec8078bb323a1cf7fb3521d8fa') in 0.097015 seconds
+  Time since last request: 120.259295 seconds.
+  path: Assets/Player/Player.controller
+  artifactKey: Guid(c7e40b93e0002b440a7be99e9f67966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Player.controller using Guid(c7e40b93e0002b440a7be99e9f67966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1e7a4cf4171d86409c10ee97a932b001') in 0.001276 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 36.604461 seconds.
-  path: Assets/Player/Kachujin G Rosales@Fast Run.fbx
-  artifactKey: Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Fast Run.fbx using Guid(a94674729c879524cba5b9d1a3be8f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8b0f26b8dea7cee0962abdd3ec56c162') in 0.040344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 13.880251 seconds.
-  path: Assets/Player/Kachujin G Rosales@Jumping Up.fbx
-  artifactKey: Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Jumping Up.fbx using Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c10b0f3c03e55ddf785b8412ed785a29') in 0.045089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 37.397075 seconds.
-  path: Assets/Player/Kachujin G Rosales@Jumping Up.fbx
-  artifactKey: Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Jumping Up.fbx using Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4b8901b9a96ad45fb0a4f4c08c1ffa61') in 0.050909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 14.806237 seconds.
-  path: Assets/Player/Kachujin G Rosales@Jumping Up.fbx
-  artifactKey: Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Jumping Up.fbx using Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8d67a372bd0f5c702ba4e9acd5e8357c') in 0.047924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 9.199848 seconds.
-  path: Assets/Player/Kachujin G Rosales@Jumping Up.fbx
-  artifactKey: Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Jumping Up.fbx using Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4d1ca66688b6440d9b9bcc1365713386') in 0.213879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 1.669214 seconds.
-  path: Assets/Player/Kachujin G Rosales@Jumping Up.fbx
-  artifactKey: Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Jumping Up.fbx using Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a2ac5d95ff88b106a9cfc58838634541') in 0.036046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 4.299536 seconds.
-  path: Assets/Player/Kachujin G Rosales@Jumping Up.fbx
-  artifactKey: Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Jumping Up.fbx using Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5bf911cc561cb25ce2a6e1c172a05832') in 0.040545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 28.132959 seconds.
-  path: Assets/Player/Kachujin G Rosales@Jumping Up.fbx
-  artifactKey: Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Jumping Up.fbx using Guid(6d810b20f1db69a469cc057ee99d80b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a13c12c2c136a3cc0e529754a85e33bf') in 0.039591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 7.062388 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Left.fbx
-  artifactKey: Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Left.fbx using Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd6d2c5f951a6dac174182af674cc8811') in 0.046531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 29.517426 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Left.fbx
-  artifactKey: Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Left.fbx using Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0dc27440d7582817f01175dd507ad0af') in 0.060258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 9.272719 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Left.fbx
-  artifactKey: Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Left.fbx using Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0ba2844823d4ce08d6cc3d18eb9ec518') in 0.055016 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 9.108015 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Left.fbx
-  artifactKey: Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Left.fbx using Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f9814f1c22da933a05ee466da23cb9ba') in 0.095709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 6.992662 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Left.fbx
-  artifactKey: Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Left.fbx using Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '420ddbfbeed8fbaa9463a63921a437ee') in 0.121079 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 12.600191 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Left.fbx
-  artifactKey: Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Left.fbx using Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c2732a198d3d2bdb6efa317fd96291c5') in 0.044737 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 5.567272 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Left.fbx
-  artifactKey: Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Left.fbx using Guid(bdf3bca8cf3cf0247970566b19314867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'de6585daf081b1be71fe9b29795835e1') in 0.724371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 20.866667 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Right.fbx
-  artifactKey: Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Right.fbx using Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5189c88af9bd66e0953178468e38ff31') in 0.046879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 8.840689 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Right.fbx
-  artifactKey: Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Right.fbx using Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1b4e1b4b64b6e1cd645630ff4ba0a307') in 0.053403 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 8.568226 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Right.fbx
-  artifactKey: Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Right.fbx using Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5722ffc0bc67f6310abaec23ba28842f') in 0.046489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 13.770135 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Right.fbx
-  artifactKey: Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Right.fbx using Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8defc2fcd0282ef64c9d2038cf4de5ec') in 0.045074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 1.855108 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Right.fbx
-  artifactKey: Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Right.fbx using Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '69f62c4bd737601763abe27ce266ecc0') in 0.047343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 3.267163 seconds.
-  path: Assets/Player/Kachujin G Rosales@Run Right.fbx
-  artifactKey: Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Run Right.fbx using Guid(0ef8e218032363746a405deb49681107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '03cb7ab40daf96915a8868ab5f60883c') in 0.038686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 10.175516 seconds.
-  path: Assets/Player/Kachujin G Rosales@Running Backward.fbx
-  artifactKey: Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Running Backward.fbx using Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '66f8b3dfc975319cff083947e6764a84') in 0.048271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 17.781425 seconds.
-  path: Assets/Player/Kachujin G Rosales@Running Backward.fbx
-  artifactKey: Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Running Backward.fbx using Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '95e094d1ceaddb58d4be50c90314d2a9') in 0.054830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 8.561155 seconds.
-  path: Assets/Player/Kachujin G Rosales@Running Backward.fbx
-  artifactKey: Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Running Backward.fbx using Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5862a44a3e03239b575c1b6fd8b0a4f7') in 0.046106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 7.662042 seconds.
-  path: Assets/Player/Kachujin G Rosales@Running Backward.fbx
-  artifactKey: Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Running Backward.fbx using Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '63ea6c43fd35aff0d18911f642c1d093') in 0.559735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 1.616593 seconds.
-  path: Assets/Player/Kachujin G Rosales@Running Backward.fbx
-  artifactKey: Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Running Backward.fbx using Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1b105e9fd628a322e7344c82f0198cf9') in 0.040451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 4.995948 seconds.
-  path: Assets/Player/Kachujin G Rosales@Running Backward.fbx
-  artifactKey: Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Running Backward.fbx using Guid(55b505115462dd24580c340558d7f505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd979cccc8bcc3893ae8419ce5f96a115') in 0.045271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 9.385582 seconds.
-  path: Assets/Player/Kachujin G Rosales@Standing Idle.fbx
-  artifactKey: Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Standing Idle.fbx using Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8e762beae8747e45c6111e90ac499073') in 0.046939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 9.565109 seconds.
-  path: Assets/Player/Kachujin G Rosales@Standing Idle.fbx
-  artifactKey: Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Standing Idle.fbx using Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '84f66c8532ef3293ba61db5a1f632ce2') in 0.058233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 21.928216 seconds.
-  path: Assets/Player/Kachujin G Rosales@Standing Idle.fbx
-  artifactKey: Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Standing Idle.fbx using Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '52e9c25f64d35cbf6c6ecab2768a4d91') in 0.048170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 2.797841 seconds.
-  path: Assets/Player/Kachujin G Rosales@Standing Idle.fbx
-  artifactKey: Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Standing Idle.fbx using Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4b415e51a3db0dee5b7c67dc5a41f970') in 0.057443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
-========================================================================
-Received Import Request.
-  Time since last request: 4.319051 seconds.
-  path: Assets/Player/Kachujin G Rosales@Standing Idle.fbx
-  artifactKey: Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Kachujin G Rosales@Standing Idle.fbx using Guid(a79a2e0f1a2a53a469da6d21989b9743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '57b1fbe9837632da8dede42c6d774bc0') in 0.051840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
+Number of asset objects unloaded after import = 1
