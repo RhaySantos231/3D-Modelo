@@ -85,11 +85,97 @@ public class movePlayer : MonoBehaviour
             anim.SetBool("varRunLeft", false);
             anim.SetBool("varRunRight", false);
         }
-   
+        //-------------------01/09/2025------------------
+        if(y < 0)//Indo para trás
+        {
+            anim.SetBool("varRun", false);
+            anim.SetBool("varRunBack", true);
+            anim.SetBool("varRunLeft", false);
+            anim.SetBool("varRunRight", false);
+        }
+        if(x > 0 && y == 0)//Indo apenas para a direita
+        {
+            anim.SetBool("varRun", false);
+            anim.SetBool("varRunBack", false);
+            anim.SetBool("varRunLeft", false);
+            anim.SetBool("varRunRight", true);
+        }
+        if(x < 0 && y == 0)//Indo apenas para a esquerda
+        {
+            anim.SetBool("varRun", false);
+            anim.SetBool("varRunBack", false);
+            anim.SetBool("varRunLeft", true);
+            anim.SetBool("varRunRight", false);
+        }
+        if(y > 0 && x < 0)//Indo  para a esquerda
+        {
+            anim.SetBool("varRun", true);
+            anim.SetBool("varRunBack", false);
+            anim.SetBool("varRunLeft", false);
+            anim.SetBool("varRunRight", false);
+
+        }
+        if (y > 0 && x > 0)//Indo  para a direita
+        {
+            anim.SetBool("varRun", true);
+            anim.SetBool("varRunBack", false);
+            anim.SetBool("varRunLeft", false);
+            anim.SetBool("varRunRight", false);
+
+        }
+        if(y < 0 && x > 0)//Trás e direita
+        {
+            anim.SetBool("varRun", false);
+            anim.SetBool("varRunBack", true);
+            anim.SetBool("varRunLeft", false);
+            anim.SetBool("varRunRight", false);
+        }
+        if(y < 0 && x < 0)//Trás e esquerda
+        {
+            anim.SetBool("varRun", false);
+            anim.SetBool("varRunBack", true);
+            anim.SetBool("varRunLeft", false);
+            anim.SetBool("varRunRight", false);
+        }
+        //Ditar o direcionador que vai ser utilizado
+        moveDirection = transform.TransformDirection(moveDirection);
+
+        //Movimentar o personagem
+        transform.position += moveDirection * speed * Time.deltaTime;
+
+        if(isGrounded && Input.GetButton("Jump"))
+        {
+            anim.SetBool("varJump", true);
+            //Executar o pulo com um certo delay 
+            Invoke("Pular", 0.5f);
+        }
     }
-    private void Pular() { }
+    private void Pular() {
+        //03/09
+        //Define a força do pulo
+        jumpForce = 2.6f;
+
+        //Aplica a força do pulo na direção vertical (Y) usando a 
+        //propriedade velocity do controller
+        controller.velocity = new Vector3(0f, jumpForce, 0f);
+
+        //Desativa as animações de corrida (em todas as direções), 
+        //já que o personagem está pulando
+        anim.SetBool("varRun", false);
+        anim.SetBool("varRunBack", false);
+        anim.SetBool("varRunLeft", false);
+        anim.SetBool("varRunRight", false);
+    }
+    //Método usado para desenhar elementos de depuração na cena
+    //(visivel apenas no editor na Unity)
     private void OnDrawGizmos()
     {
-        
+        //Definir a cor do gizmo como ciano
+        Gizmos.color = Color.cyan;
+
+        //desenha uma esfera "false" (apenas o contorno) na posição do personagem  +offset
+        //da colisão com o raio definido por 'areaCollisionChao' para representar a área
+        //de colisão com o chão
+        Gizmos.DrawWireSphere(transform.position + collisionPosition, areaCollisionChao);
     }
 }
