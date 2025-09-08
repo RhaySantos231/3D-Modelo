@@ -2105,9 +2105,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kachujin G Rosales
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c7e40b93e0002b440a7be99e9f67966d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 963194228}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
       insertIndex: -1
@@ -2202,6 +2209,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!4 &271474512 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e869edda986bb9d4d99ace13aee4eb5d, type: 3}
+  m_PrefabInstance: {fileID: 271474506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &274149863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6003,11 +6015,11 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.42478457, z: -0, w: 0.9052945}
-  m_LocalPosition: {x: 261.31, y: 5.14, z: 147.44}
+  m_LocalPosition: {x: -32.34, y: 3.6, z: -10.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 271474512}
   m_LocalEulerAnglesHint: {x: 0, y: -50.274, z: 0}
 --- !u!1001 &972490882
 PrefabInstance:
@@ -12557,7 +12569,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 1829371452}
   - {fileID: 819527636}
