@@ -57,6 +57,8 @@ public class movePlayer : MonoBehaviour
             x = Input.GetAxis("Horizontal");
             y = Input.GetAxis("Vertical");
 
+            Debug.Log("Funciona caralho");
+
             isGrounded = true;
         }
         else
