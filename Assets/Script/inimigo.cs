@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -35,8 +36,38 @@ public class inimigo : MonoBehaviour
     }
 
     // Update is called once per frame
+    //15/09
     void Update()
     {
-        
+        //Se o alvo não for nulo(existe um alvo), ele chama o método
+        if(alvo != null)
+        {
+            Distancia();
+        }
+    }
+
+    private void Distancia()
+    {
+       if(Vector3.Distance(transform.position, alvo.position) <= 3.0f 
+            && atkCound == 0)//Calcula a distancia 
+        {
+            anim.SetTrigger("varAtk");
+            tempoAtk = 0.0f;
+            atkCound++;
+        }
+       //Verifica se o estado atual da animação é "attack"
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            agent.ResetPath();
+        }
+        else
+        {
+            agent.SetDestination(alvo.position);
+            tempoAtk += Time.deltaTime;
+            if(tempoAtk >= 0.1f)
+            {
+                atkCound = 0;
+            }
+        }
     }
 }
